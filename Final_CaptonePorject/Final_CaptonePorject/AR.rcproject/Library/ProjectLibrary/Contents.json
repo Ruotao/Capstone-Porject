@@ -1,0 +1,62 @@
+[
+  {
+    "libraryIdentifier" : "7eb017d1437e7015345283194be8d3dc",
+    "format" : "model",
+    "displayName" : "toy_robot_vintage.usdz"
+  },
+  {
+    "libraryIdentifier" : "b85161dc09629d5af0510dd50c6908c4",
+    "format" : "arObject",
+    "displayName" : "Scan_13-52-02.arobject"
+  },
+  {
+    "libraryIdentifier" : "4954cd0a66d6df3bce389b65918fd9a9",
+    "format" : "arObject",
+    "displayName" : "Scan_15-51-02.arobject"
+  },
+  {
+    "libraryIdentifier" : "200be8c0714e1f9ce76409d882d0e2b5",
+    "format" : "model",
+    "displayName" : "orifire.imported.usdz"
+  },
+  {
+    "libraryIdentifier" : "ae999588b523ad15b00a8ccd860d7d0e",
+    "format" : "model",
+    "displayName" : "orifiredi 2.imported.usdz"
+  },
+  {
+    "libraryIdentifier" : "237140b3eefc73790b16a89c19cad868",
+    "format" : "model",
+    "displayName" : "orifireedi.imported.usdz"
+  },
+  {
+    "libraryIdentifier" : "1d6a5030ada3f29bde264f865ac9f404",
+    "format" : "model",
+    "displayName" : "gfire1.imported.usdz"
+  },
+  {
+    "libraryIdentifier" : "7e6d4daa47442c20a83e22e992b3f690",
+    "format" : "model",
+    "displayName" : "atome.imported.usdz"
+  },
+  {
+    "libraryIdentifier" : "73c75390ee8fde0ed13d502a36b74193",
+    "format" : "model",
+    "displayName" : "atom_change.imported.usdz"
+  },
+  {
+    "libraryIdentifier" : "be0b41cb8d309aef3e06a719c5186235",
+    "format" : "arObject",
+    "displayName" : "Scan_10-06-57.arobject"
+  },
+  {
+    "libraryIdentifier" : "1ed1d952c02e2c18d2e685ccf926372b",
+    "format" : "arObject",
+    "displayName" : "Scan_19-47-50.arobject"
+  },
+  {
+    "libraryIdentifier" : "20eaefd2436030a4d737169a18d1b784",
+    "format" : "arObject",
+    "displayName" : "Scan_19-58-57.arobject"
+  }
+]

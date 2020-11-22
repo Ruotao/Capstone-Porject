@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8PE-Zb-JLg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="gxl-Qf-ISb">
+            <objects>
+                <viewController id="8PE-Zb-JLg" customClass="MainViewController" customModule="Final_CaptonePorject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XgA-fN-id3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stencil-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="Gu7-jd-pUD">
+                                <rect key="frame" x="-49" y="112" width="512" height="128"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmN-PG-rmz">
+                                <rect key="frame" x="88" y="691" width="238" height="52"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="ARButton:" destination="8PE-Zb-JLg" eventType="touchUpInside" id="uVJ-sz-cnB"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Oc-wi-8s0">
+                                <rect key="frame" x="40" y="534" width="354" height="49"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Let's start your first AR experiment">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineHeightMultiple="0.5" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="16" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineHeightMultiple="0.5" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="16" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ug0-gU-wZw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Ug0-gU-wZw" firstAttribute="bottom" secondItem="SmN-PG-rmz" secondAttribute="bottom" constant="119" id="0VP-SC-p0f"/>
+                            <constraint firstItem="Ug0-gU-wZw" firstAttribute="trailing" secondItem="1Oc-wi-8s0" secondAttribute="trailing" constant="20" id="5QQ-XW-ggC"/>
+                            <constraint firstItem="Gu7-jd-pUD" firstAttribute="centerX" secondItem="XgA-fN-id3" secondAttribute="centerX" id="CLY-gc-XtW"/>
+                            <constraint firstItem="1Oc-wi-8s0" firstAttribute="top" secondItem="Gu7-jd-pUD" secondAttribute="bottom" constant="294" id="OJB-Pt-gnJ"/>
+                            <constraint firstItem="SmN-PG-rmz" firstAttribute="leading" secondItem="Ug0-gU-wZw" secondAttribute="leading" constant="88" id="PpF-a8-2Gd"/>
+                            <constraint firstItem="Gu7-jd-pUD" firstAttribute="leading" secondItem="XgA-fN-id3" secondAttribute="leading" constant="-49" id="QJm-ZT-yms"/>
+                            <constraint firstItem="1Oc-wi-8s0" firstAttribute="leading" secondItem="Ug0-gU-wZw" secondAttribute="leading" constant="40" id="QTw-cA-0BT"/>
+                            <constraint firstItem="Ug0-gU-wZw" firstAttribute="bottom" secondItem="Gu7-jd-pUD" secondAttribute="bottom" constant="622" id="TtB-Nq-HfI"/>
+                            <constraint firstItem="SmN-PG-rmz" firstAttribute="leading" secondItem="Ug0-gU-wZw" secondAttribute="leading" constant="88" id="VRI-Cs-tLW"/>
+                            <constraint firstAttribute="trailing" secondItem="Gu7-jd-pUD" secondAttribute="trailing" constant="-49" id="Y1P-hE-brX"/>
+                            <constraint firstItem="SmN-PG-rmz" firstAttribute="centerX" secondItem="XgA-fN-id3" secondAttribute="centerX" id="dSQ-25-ZJy"/>
+                            <constraint firstItem="Ug0-gU-wZw" firstAttribute="bottom" secondItem="SmN-PG-rmz" secondAttribute="bottom" constant="119" id="eCc-n0-ZkA"/>
+                            <constraint firstItem="Gu7-jd-pUD" firstAttribute="top" secondItem="Ug0-gU-wZw" secondAttribute="top" constant="68" id="gWH-3l-LOI"/>
+                            <constraint firstItem="Ug0-gU-wZw" firstAttribute="trailing" secondItem="SmN-PG-rmz" secondAttribute="trailing" constant="88" id="qod-g2-MVA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="startButton" destination="SmN-PG-rmz" id="NJU-xk-xe5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FBf-2v-GLb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-186" y="-66"/>
+        </scene>
+        <!--Choose View Controller-->
+        <scene sceneID="7u9-Ay-KdV">
+            <objects>
+                <viewController storyboardIdentifier="chooseVC" id="AVy-yH-cyS" customClass="ChooseViewController" customModule="Final_CaptonePorject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V5Y-lx-jrg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oam-ak-Ia9">
+                                <rect key="frame" x="129" y="474" width="156" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Flame Test">
+                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="FTbutton:" destination="AVy-yH-cyS" eventType="touchUpInside" id="9Hn-Ns-Vkt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOY-fO-i90">
+                                <rect key="frame" x="129" y="316" width="156" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Hot Tea">
+                                    <color key="titleColor" systemColor="systemGreenColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="HTbutton:" destination="AVy-yH-cyS" eventType="touchUpInside" id="M1h-Xh-NeE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="u1X-Q1-OWK"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Oam-ak-Ia9" firstAttribute="centerX" secondItem="V5Y-lx-jrg" secondAttribute="centerX" id="7OA-XO-VFi"/>
+                            <constraint firstItem="uOY-fO-i90" firstAttribute="centerX" secondItem="V5Y-lx-jrg" secondAttribute="centerX" id="EKP-Tp-AeI"/>
+                            <constraint firstItem="u1X-Q1-OWK" firstAttribute="trailing" secondItem="uOY-fO-i90" secondAttribute="trailing" constant="129" id="VWQ-D7-Rc7"/>
+                            <constraint firstItem="Oam-ak-Ia9" firstAttribute="top" secondItem="uOY-fO-i90" secondAttribute="bottom" constant="111" id="hn8-fS-59k"/>
+                            <constraint firstItem="uOY-fO-i90" firstAttribute="leading" secondItem="u1X-Q1-OWK" secondAttribute="leading" constant="129" id="huq-q3-uMz"/>
+                            <constraint firstItem="uOY-fO-i90" firstAttribute="top" secondItem="u1X-Q1-OWK" secondAttribute="top" constant="272" id="nw3-vV-3fa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flametest" destination="Oam-ak-Ia9" id="TaY-cW-q8t"/>
+                        <outlet property="hottea" destination="uOY-fO-i90" id="ctZ-VU-uws"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vto-Ku-ina" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="595.6521739130435" y="-80.357142857142847"/>
+        </scene>
+        <!--Hot Tea View Controller-->
+        <scene sceneID="rzR-Tb-MGX">
+            <objects>
+                <viewController storyboardIdentifier="hottea" id="y8J-Cs-QfK" customClass="HotTeaViewController" customModule="Final_CaptonePorject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eAp-12-rey">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zMS-j4-E34">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqR-BU-3VL">
+                                <rect key="frame" x="31" y="67" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="backButton:" destination="y8J-Cs-QfK" eventType="touchUpInside" id="eag-AW-Yhk"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qCx-i2-2Jy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="zMS-j4-E34" id="7kN-t3-YOB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0wy-ED-4Me" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-961" y="303"/>
+        </scene>
+        <!--Ar View Controller-->
+        <scene sceneID="LXf-XC-1xk">
+            <objects>
+                <viewController storyboardIdentifier="arVC" id="WPc-Md-SQS" customClass="ar_ViewController" customModule="Final_CaptonePorject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NFm-du-h1H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vpi-PP-X2i">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </arView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrK-X3-IJj">
+                                <rect key="frame" x="20" y="65" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="backButton:" destination="WPc-Md-SQS" eventType="touchUpInside" id="alj-MJ-gLc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHm-J4-fY0">
+                                <rect key="frame" x="181" y="700" width="70" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButton:" destination="WPc-Md-SQS" eventType="touchUpInside" id="gHs-Nn-M9U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tV2-ho-ekA">
+                                <rect key="frame" x="260" y="177" width="154" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
+                                <state key="normal" title="Click Me">
+                                    <color key="titleColor" red="0.9675703068" green="1" blue="0.28414571300000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="flameButton:" destination="WPc-Md-SQS" eventType="touchUpInside" id="gOf-Hk-zm9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="WJT-ru-OdP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="Vpi-PP-X2i" id="k9H-Pt-Df4"/>
+                        <outlet property="flameTest" destination="tV2-ho-ekA" id="7iV-tG-7Xe"/>
+                        <outlet property="startAR" destination="UHm-J4-fY0" id="lfw-xb-jMd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TaX-1k-RGK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1346.376811594203" y="188.83928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Stencil-Logo" width="512" height="256"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
